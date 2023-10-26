@@ -49,4 +49,9 @@ composer install
 php artisan key:generate 
 ```
 
-8. Run project at http://localhost:8989
+8. Run migrations:
+```bash
+php artisan migrate
+```
+
+9. Run project at http://localhost:8989
